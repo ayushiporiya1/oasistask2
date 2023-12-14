@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Creative Portfolio</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #283642;
+      color: #f8f8f8;
+    }
+
+    header {
+      background-color: #3F5866;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    nav {
+      background-color: #34495E;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 1rem;
+      margin: 0 1rem;
+      font-weight: bold;
+      transition: color 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+      color: #F39C12;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .intro img {
+     
+      max-width: 150px;
+      height: auto;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    h2 {
+      color: #F39C12;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .services-boxes {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 2rem;
+    }
+
+    .service-box {
+      text-align: center;
+      background-color: #34495E;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 30%;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .service-box:hover {
+      transform: scale(1.05);
+    }
+
+    .service-box h3 {
+      color: #F39C12;
+    }
+
+    .blogs {
+      margin-top: 2rem;
+    }
+
+    .blog {
+      margin-bottom: 2rem;
+    }
+
+    .contact-info {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #34495E;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-me {
+      margin-top: 2rem;
+    }
+
+    .feedback {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .star-icons {
+      display: flex;
+      justify-content: center;
+      font-size: 24px;
+      margin-bottom: 1rem;
+    }
+
+    .star-icons i {
+      color: #FFD700;
+      transition: color 0.3s ease-in-out;
+    }
+
+    .star-icons i:hover,
+    .star-icons i.active {
+      color: #F39C12;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 1rem;
+      border: 1px solid #5D6D7E;
+      border-radius: 4px;
+      background-color: #2C3E50;
+      color: #f8f8f8;
+    }
+
+    button {
+      background-color: #F39C12;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    button:hover {
+      background-color: #E74C3C;
+    }
+
+    footer {
+  background-color: #2C3E50; /* Dark blue background */
+  color: #fff; /* White text color */
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Creative Portfolio</h1>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#blogs">My Blogs</a>
+    <a href="#contact">Contact Info</a>
+    <a href="#about">About Me</a>
+    <a href="#feedback">Feedback</a>
+  </nav>
+
+  <div class="intro">
+    <img src="image.png" alt="Profile Picture">
+    <h2>Hello, I'm Ayushi Poriya  </h2>
+    <p>Welcome to my creative portfolio. Explore my work and passion for web development.</p>
+  </div>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services-boxes">
+      <div class="service-box">
+        <h3>Web Designer</h3>
+        <p>I craft visually stunning and intuitive web designs that leave a lasting impression.</p>
+      </div>
+      <div class="service-box">
+        <h3>UI Developer</h3>
+        <p>Creating seamless and engaging user interfaces, delivering an exceptional user experience.</p>
+      </div>
+      <div class="service-box">
+        <h3>Programmer</h3>
+        <p>Transforming ideas into reality through clean, efficient, and innovative code solutions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="blogs" class="blogs">
+    <h2>My Blogs</h2>
+    <div class="blog">
+      <h3>Web Development</h3>
+      <p>Explore the ever-evolving world of web development, from the latest trends to advanced techniques that elevate your projects.</p>
+      <p>From responsive design to modern frameworks, dive into the exciting realm of creating dynamic and interactive web applications.</p>
+      <p>Learn how to optimize your website for performance and user experience, ensuring your projects stand out in the digital landscape.</p>
+    </div>
+    <div class="blog">
+      <h3>C++</h3>
+      <p>Embark on a journey through the power and versatility of C++. Discover tips, tricks, and best practices for mastering this powerful programming language.</p>
+      <p>From efficient memory management to object-oriented programming, uncover the secrets to writing robust and scalable C++ code.</p>
+      <p>Explore advanced C++ features and techniques, empowering you to build high-performance applications and solve complex problems.</p>
+    </div>
+    <div class="blog">
+      <h3>Machine Learning</h3>
+      <p>Delve into the fascinating world of machine learning. Learn about algorithms, models, and applications that drive advancements in artificial intelligence.</p>
+      <p>Explore how machine learning is reshaping industries, from predictive analytics to natural language processing and computer vision.</p>
+      <p>Discover practical examples and use cases of machine learning, guiding you through the process of building intelligent and data-driven solutions.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-info">
+    <h2>Contact Info</h2>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ayushi-poriya-2503ap" target="_blank">Ayushi Poriya</a></p>
+    <p>Email: <a href="mailto:ayushiporiya1@gmail.com">ayushiporiya1@gmail.com</a></p>
+  </section>
+
+  <section id="about" class="about-me">
+    <h2>About Me</h2>
+    <p>I am a BTech student with a passion for creative web development, expertise in C++, and an avid interest in machine learning. My journey involves combining technical skills with a flair for design to deliver impactful digital experiences.</p>
+  </section>
+
+  <section id="feedback" class="feedback">
+    <h2>Feedback</h2>
+    <div class="star-icons">
+      <i class="star" onclick="rateStar(1)">&#9733;</i>
+      <i class="star" onclick="rateStar(2)">&#9733;</i>
+      <i class="star" onclick="rateStar(3)">&#9733;</i>
+      <i class="star" onclick="rateStar(4)">&#9733;</i>
+      <i class="star" onclick="rateStar(5)">&#9733;</i>
+    </div>
+    <textarea placeholder="Leave your feedback here..." rows="4"></textarea>
+    <button onclick="submitFeedback()">Submit Feedback</button>
+  </section>
+  <footer>
+    <p>&copy; 2023 Ayushi's Portfolio</p>
+  </footer>
+
+  <script>
+    let rating = 0;
+
+    function rateStar(star) {
+      for (let i = 1; i <= 5; i++) {
+        const starElement = document.querySelector(`.star:nth-child(${i})`);
+        if (i <= star) {
+          starElement.classList.add('active');
+        } else {
+          starElement.classList.remove('active');
+        }
+      }
+
+      rating = star;
+    }
+
+    function submitFeedback() {
+      if (rating === 0) {
+        alert("Please provide a rating.");
+      } else {
+        alert(`Feedback submitted! Rating: ${rating}. This is just a demo.`);
+      }
+    }
+  </script>
+
+</body>
+</html>
